@@ -1,0 +1,26 @@
+{
+  "context-menu": {
+    "atom-text-editor": [
+      {
+        "label": "Toggle tools-topstation",
+        "command": "tools-topstation:toggle"
+      }
+    ]
+  },
+  "menu": [
+    {
+      "label": "Packages",
+      "submenu": [
+        {
+          "label": "tools-topstation",
+          "submenu": [
+            {
+              "label": "Toggle",
+              "command": "tools-topstation:toggle"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
